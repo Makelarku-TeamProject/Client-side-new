@@ -1,0 +1,95 @@
+.property-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .property-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .property-card img {
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .property-card .card-body {
+    padding: 20px;
+  }
+  
+  .property-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .property-card p {
+    margin-bottom: 15px;
+  }
+  
+  .property-card .btn {
+    background-color: rgba(252, 138, 49, 255);
+    color: white;
+  }
+  
+  .property-card .btn:hover {
+    background-color: rgba(252, 110, 49, 255);
+  }
+  
+  .property-details {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .property-details i {
+    color: rgba(252, 138, 49, 255);
+    margin-right: 5px;
+  }
+  
+  
+  /* Custom media queries for extra styling */
+  @media (max-width: 767px) {
+    .hero {
+        padding: 20px 0;
+    }
+  
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+  
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+  
+    .hero p {
+        font-size: 1rem;
+    }
+  
+    .hero button {
+        width: 100%;
+        margin-top: 10px;
+    }
+  
+    .card-section button {
+        width: 100%;
+        margin-top: 10px;
+    }
+  
+    .campaign-banner button {
+        width: 100%;
+        margin-top: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+  
+    .hero p {
+        font-size: 1.2rem;
+    }
+  }
