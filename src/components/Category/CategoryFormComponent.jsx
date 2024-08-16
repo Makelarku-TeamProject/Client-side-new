@@ -13,10 +13,10 @@ const CategoryFormComponent = ({ form, onSubmit, onEdit }) => {
                     name="name"
                     rules={[{ required: true, message: 'Please input the category name!' }]}
                 >
-                    <Input placeholder="Category Name" />
+                    <Input placeholder="Category Name" data-testid="input-category"/>
                 </Form.Item>
                 <Form.Item>
-                    <Button type="primary" htmlType="submit" className="w-100">
+                    <Button type="primary" htmlType="submit" className="w-100" data-testid="button-submit">
                         {form.getFieldValue('id') ? 'Update Category' : 'Add Category'}
                     </Button>
                 </Form.Item>
