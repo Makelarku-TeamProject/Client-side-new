@@ -1,3 +1,4 @@
+import HeroImage from '../../../assets/Hero.png'
 const SectionHero = () => {
   console.log('a')
   return (
@@ -26,7 +27,7 @@ const SectionHero = () => {
             </div>
             <div className="col-12 col-md-6 text-center order-1 order-md-2">
               <img
-                src="https://www.hubspot.com/hs-fs/hubfs/Real-Estate-Slogans.jpg?width=595&height=400&name=Real-Estate-Slogans.jpg"
+                src={HeroImage}
                 className="img-fluid"
                 alt="Real Estate Slogans"
               />
